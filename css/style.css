@@ -23,19 +23,23 @@ header {
   opacity: 0.9;
 
 }
+ nav{
+   display: inline-block;
+   padding-right:30px;
+ }
+ span{
+   padding-left: 24px;
+ }
 
-  nav{
-  display: inline-block;
-  padding: 24px;
-}
-span{
-  padding: 12px;
+
+
+  a {
+      color: seashell;
+    text-decoration: underline;
 }
 
-a{
-  color: seashell;
-  text-decoration: underline;
-}
+
+
 
 
 .logo{
@@ -47,16 +51,25 @@ a{
 
 /* Main Content Section */
 
+
  .content {
     margin: auto;
     display:inline;
+    position:relative;
     background-color: black;
-    line-height:12px;
-    height:100px;
+    top:12%;
+    height: 15%;
+    transform: translateY(-50%);
+
     width: 100%;
+    line-height: 4px;
     text-align: center;
     color:seashell;
+}
 
+h4{
+
+line-height: 36px;
 }
 
 
