@@ -11,7 +11,8 @@ body{
 /* Header */
 
 header {
-  margin-top: 0px;
+
+  margin:0;
   display: flex;
   align-items: center;
   position: fixed;
@@ -83,10 +84,11 @@ header {
     }
 
 .flex-container {
-    display: flex;
+    display:flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 
 /*
