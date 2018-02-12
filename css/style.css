@@ -60,17 +60,17 @@ header {
     top:12%;
     height: 15%;
     transform: translateY(-50%);
-
     width: 100%;
     line-height: 4px;
     text-align: center;
     color:seashell;
 }
 
-h4{
 
-line-height: 36px;
+#handpicked{
+   line-height: 36px;
 }
+
 
 
 #mission {
