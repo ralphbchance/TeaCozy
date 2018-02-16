@@ -1,4 +1,5 @@
 body{
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color:seashell;
@@ -58,7 +59,7 @@ header {
     display:inline;
     position:relative;
     background-color: black;
-    top:12%;
+    top:7%;
     height: 15%;
     transform: translateY(-50%);
     width: 100%;
@@ -72,12 +73,30 @@ header {
    line-height: 36px;
 }
 
+#what{
+   line-height: 0px;
+   padding-top: 12px;
+
+
+}
+#tea{
+
+   line-height: 18px;
+   position: relative;
+
+}
+
+
+
 
 
 #mission {
       height:700px;
       width: 1200px;
       background-image: url("../images/img-mission-background.jpg");
+      background-repeat: no-repeat;
+      top: 70px;
+      bottom: 60px;
       margin: 0 auto;
       position:relative;
 
@@ -92,15 +111,17 @@ header {
 
 /* Tea Shop Section */
 
-#tea-shop{
+#tea-shop {
   height: 700px;
   width: 1000px;
-  margin: auto;
-  padding-top: 70px;
+  margin: 0 auto;
+  top:144px;
+  position: relative;
+
 }
 
 .ts-item {
-    padding: 5px;
+    padding:2px 5px 12px 5px;
 }
 
 
@@ -108,7 +129,7 @@ header {
 .ts-item img {
     height: 200px;
     width: 300px;
-    margin: 10px;
+    margin: 5px 10px 10px 10px;
     display: block;
 }
 
@@ -118,9 +139,12 @@ header {
     font-weight: bold;
     text-align: center;
 }
-
-
-
+/*
+h2, h3, h4 {
+    margin: 0px;
+    padding: 10px;
+}
+*/
 
 /*
 h2{
