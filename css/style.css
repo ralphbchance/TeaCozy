@@ -1,18 +1,16 @@
-body{
+body {
   margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color:seashell;
   background-color: black;
   text-align: center;
-
 }
 
 
 /* Header */
 
 header {
-
   margin:0;
   display: flex;
   align-items: center;
@@ -23,37 +21,31 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
   opacity: 0.9;
-
 }
- nav{
+
+ nav {
    display: inline-block;
    padding-right:30px;
  }
- span{
+
+ span {
    padding-left: 24px;
  }
 
-
-
-  a {
+ a {
       color: seashell;
     text-decoration: underline;
 }
 
-
-
-
-
-.logo{
+.logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left:10px;
 }
 
-/* Main Content Section */
-
 /*Our Mission Section*/
+
  .content {
     margin: auto;
     display:inline;
@@ -68,18 +60,13 @@ header {
     color:seashell;
 }
 
-
-
-#our{
+#our {
    line-height: 40px;
 }
 
-
-
-#handpicked{
+#handpicked {
    line-height: 20px;
 }
-
 
 #mission {
       height:700px;
@@ -97,7 +84,6 @@ header {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 /* Tea Shop Section */
@@ -108,14 +94,11 @@ header {
   margin: 0 auto;
   top:144px;
   position: relative;
-
 }
 
 .ts-item {
     padding:10px 5px 12px 5px;
 }
-
-
 
 .ts-item img {
     height: 200px;
@@ -124,22 +107,20 @@ header {
     display: block;
 }
 
-#ts-item{
+#ts-item {
     display: block;
     padding: 5px;
     font-weight: bold;
     text-align: center;
 }
 
-
 /* Tea Shop Location Section */
 
-#locations .flex-container{
+#locations .flex-container {
 
          width: 1200px;
          margin: auto;
 }
-
 
 #locations {
     background-image: url("../images/img-locations-background.jpg");
@@ -151,7 +132,7 @@ header {
     top: 148px;
 }
 
-.flex-container.locations{
+.flex-container.locations {
   padding-top: 5px;
 }
 
@@ -167,19 +148,23 @@ header {
 }
 
 
-
-
-
-
 h2, h3, h4 {
     margin: 0px;
     padding: 10px;
 }
 
+/* Contact Section */
 
-/*
-h2{
-  font-family: Helvetica;
-  color:seashell;
+#contact {
+  Top:150px;
+  height:200px;
+  margin: 0 auto;
+  position: relative;
 }
-*/
+
+footer {
+  top:150px;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+}
